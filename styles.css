@@ -41,11 +41,18 @@ strong {
 /* -- HEADER -- */
 header {
   width: 100%;
+  height: auto;
   text-align: center;
 
   padding: 1rem;
 
   box-shadow: 0 2px 5px gray;
+}
+
+header nav {
+  margin-top: 1.5rem;
+
+  width: 100%;
 }
 
 header p {
@@ -54,11 +61,11 @@ header p {
 
   max-width: 65%;
   margin: 0 auto;
-
 }
 
 header ul {
-  margin-top: 2rem;
+  display: inline;
+  align-items: center;
 }
 
 header li {
@@ -67,6 +74,7 @@ header li {
 }
 
 header h2 {
+  margin: 0;
   display: inline;
 }
 
