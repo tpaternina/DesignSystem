@@ -57,6 +57,7 @@ strong {
   height: auto;
 
   padding: 2.5%;
+  margin-bottom: 1rem;
   margin-left: 0;
   margin-right: 0.75rem;
 
@@ -112,6 +113,10 @@ strong {
 
 .egg {
   background-color: #fafafa;
+}
+
+.revision {
+  background-color: #ff4500;
 }
 
 /* -- TEXT STYLE GUIDE -- */
