@@ -149,6 +149,14 @@ strong {
   font-size: 2rem;
 }
 
+.emphasis {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* LIST OF FONTS */
 #titles {
   font-family: "IM Fell English", Times, serif;
