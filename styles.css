@@ -119,7 +119,7 @@ header a:hover {
 
 
 @media only screen and (max-width: 1250px) {
-  .color-container:last-child {
+  .color-container:nth-child(6n+0) {
     clear: left;
   }
 }
