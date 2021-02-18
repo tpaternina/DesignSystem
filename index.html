@@ -32,7 +32,7 @@
       <section id="colors" class="style-container">
         <h2>Theme colors</h2>
 
-        <div id="palette">
+        <div class="palette">
           <div class="color-container">
             <div class="color page">
             </div>
@@ -83,22 +83,11 @@
           <p>
             IM Fell English
           </p>
-          <p class="font-sample" id="titles">
-            The quick brown fox jumps over the lazy dog.
-          </p>
-          <p class="font-sample emphasis" id="titles">
+          <p class="font-sample titles">
             The quick brown fox jumps over the lazy dog.
           </p>
           <p>
-            Intended for titles and headers. Three levels possible.
-          </p>
-          <p>
-            <ul>
-              <strong>Sizes:</strong>
-              <li>32px</li>
-              <li>24px</li>
-              <li>18px</li>
-            </ul>
+            Intended for titles and headers.
           </p>
         </div>
 
@@ -106,23 +95,11 @@
           <p>
             Georgia
           </p>
-          <p class="font-sample" id="body">
-            The quick brown fox jumps over the lazy dog.
-          </p>
-          <p class="font-sample emphasis" id="body">
-            The quick brown fox jumps over the lazy dog.
-          </p>
-          <p class="font-sample bold" id="body">
+          <p class="font-sample body">
             The quick brown fox jumps over the lazy dog.
           </p>
           <p>
             Intended for the body of the document.
-          </p>
-          <p>
-            <ul>
-              <strong>Size:</strong>
-              <li>16px</li>
-            </ul>
           </p>
         </div>
 
@@ -130,20 +107,60 @@
           <p>
             Open Sans
           </p>
-          <p class="font-sample" id="ui">
+          <p class="font-sample ui">
             The quick brown fox jumps over the lazy dog.
           </p>
           <p>
             Intended for the user interface of the editng evironment (menus, buttons, file names, etc.).
           </p>
-          <p>
-            <ul>
-              <strong>Size:</strong>
-              <li>16px</li>
-            </ul>
-          </p>
         </div>
+      </section>
 
+      <section id="styles" class="style-container">
+        <h2>Font Styles</h2>
+        <div class="palette">
+          <div class="font-container">
+            <h3>Headers</h3>
+            <hr>
+            <dl>
+              <dt class="titles" id="header1">Header 1</dt>
+              <dd>IM Fell English, bold, 32px</dd>
+
+              <dt class="titles" id="header2">Header 2</dt>
+              <dd>IM Fell English, bold, 24px</dd>
+
+              <dt class="titles" id="header3">Header 3</dt>
+              <dd>IM Fell English, bold, 18px</dd>
+            </dl>
+          </div>
+
+          <div class="font-container">
+            <h3>Body</h3>
+            <hr>
+            <dl>
+              <dt class="body regular">Body paragraph</dt>
+              <dd>Georgia, regular, 16px</dd>
+
+              <dt class="body bold">Bold text (highlight)</dt>
+              <dd>Georgia, bold, 16px</dd>
+
+              <dt class="body emphasis">Italic or cursive text (emphasize)</dt>
+              <dd>Georgia, italic, 16px</dd>
+            </dl>
+          </div>
+
+          <div class="font-container">
+            <h3>User interface</h3>
+            <hr>
+            <dl>
+              <dt class="ui regular">Regular text</dt>
+              <dd>Open Sans, regular, 16px</dd>
+
+              <dt class="ui bold">Bold text (e.g. selected files in tree)</dt>
+              <dd>Open Sans, bold, 16px</dd>
+            </dl>
+          </div>
+        </div>
       </section>
     </main>
   </body>

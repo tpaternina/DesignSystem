@@ -99,10 +99,10 @@ header a:hover {
 
 /* -- COLOR STYLE GUIDE -- */
 
-#palette {
+.palette {
   margin: 0 auto;
   overflow: auto;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .color-container {
@@ -119,13 +119,13 @@ header a:hover {
 }
 
 
-@media only screen and (max-width: 895px) {
-  .color-container:last-of-type {
+@media only screen and (max-width: 1250px) {
+  .color-container:last-child {
     clear: left;
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 895px) {
   #palette {
     display: flex;
     flex-flow: column;
@@ -200,23 +200,58 @@ header a:hover {
   font-size: 2rem;
 }
 
+/* LIST OF FONTS */
+.titles {
+  font-family: "IM Fell English", Times, serif;
+}
+
+.body {
+  font-family: Georgia, Times, serif;
+}
+
+.ui {
+  font-family: "Open Sans", sans-sans-serif;
+}
+
+/* -- STYLE SECTION */
+#styles {
+  width: inherit;
+  overflow: auto;
+}
+
+#styles .font-container {
+  text-align: left;
+
+  max-width: 45%;
+}
+
+.font-container dt {
+  margin-top: 2rem;
+}
+.font-container dd {
+  margin: 1rem auto;
+}
+
+/* LIST OF STYLES */
+#header1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#header2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#header3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
 .emphasis {
   font-style: italic;
 }
 
 .bold {
   font-weight: bold;
-}
-
-/* LIST OF FONTS */
-#titles {
-  font-family: "IM Fell English", Times, serif;
-}
-
-#body {
-  font-family: Georgia, Times, serif;
-}
-
-#ui {
-  font-family: "Open Sans", sans-sans-serif;
 }
