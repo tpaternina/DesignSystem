@@ -40,6 +40,7 @@ strong {
 
 /* -- HEADER -- */
 header {
+  box-sizing: border-box;
   width: 100%;
   height: auto;
   text-align: center;
@@ -51,8 +52,6 @@ header {
 
 header nav {
   margin-top: 1.5rem;
-
-  width: 100%;
 }
 
 header p {
@@ -254,4 +253,13 @@ header a:hover {
 
 .bold {
   font-weight: bold;
+}
+
+/* -- FOOTER -- */
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  box-shadow: 0 -2px 5px gray;
 }
