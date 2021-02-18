@@ -1,4 +1,5 @@
 
+/* -- GLOBAL STYLES -- */
 html {
   font-size: 16px;
   color: #232315;
@@ -27,6 +28,13 @@ h3 {
   font-weight: normal;
 }
 
+strong {
+  font-weigth: bold;
+  /* IF NO EFFECT */
+  font-weight: 500;
+  font-weight: 800;
+}
+
 .style-container {
   max-width: 85%;
   padding: 2.5rem;
@@ -35,6 +43,8 @@ h3 {
   background-color: #f5f5f5;
   border: 1px solid #aaa;
 }
+
+/* -- COLOR STYLE GUIDE -- */
 
 #palette {
   margin: 0 auto;
@@ -56,9 +66,6 @@ h3 {
   text-align: center;
 }
 
-/* .color-container p {
-  margin: 1rem auto;
-} */
 
 @media only screen and (max-width: 895px) {
   .color-container:last-of-type {
@@ -85,6 +92,8 @@ h3 {
   margin: 0 auto 1rem auto;
 }
 
+/* LIST OF COLORS */
+
 .page {
   background-color: #f5f5f5;
 }
@@ -103,4 +112,47 @@ h3 {
 
 .egg {
   background-color: #fafafa;
+}
+
+/* -- TEXT STYLE GUIDE -- */
+
+.font-container {
+  width: 90%;
+
+  padding: 2%;
+  margin: 1rem 0;
+
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+
+  font-size: 1.125rem;
+}
+
+.font-container ul {
+  margin-top: 1.5rem;
+}
+
+.font-container li {
+  display: inline;
+
+  margin: 0 2.5rem;
+}
+
+.font-sample {
+  margin: 2rem auto;
+  font-size: 2rem;
+}
+
+/* LIST OF FONTS */
+#titles {
+  font-family: "IM Fell English", Times, serif;
+}
+
+#body {
+  font-family: Georgia, Times, serif;
+}
+
+#ui {
+  font-family: "Open Sans", sans-sans-serif;
 }
