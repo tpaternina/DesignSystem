@@ -32,7 +32,7 @@ h3 {
 }
 
 strong {
-  font-weigth: bold;
+  font-weight: bold;
   /* IF NO EFFECT */
   font-weight: 500;
   font-weight: 800;
@@ -124,7 +124,7 @@ header a:hover {
   }
 }
 
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 1100px) {
   #palette {
     display: flex;
     flex-flow: column;
@@ -220,8 +220,6 @@ header a:hover {
 
 #styles .font-container {
   text-align: left;
-
-  max-width: 45%;
 }
 
 .font-container dt {
